@@ -1,6 +1,7 @@
 .ellipsis {
-  color: #3b5998 !important;
+  color: #5890ff !important;
   font-family: Georgia, serif !important;
   font-size: 18px !important;
-  line-height: 22px;
+  line-height: 22px !important;
+  text-transform: lowercase !important;
 }

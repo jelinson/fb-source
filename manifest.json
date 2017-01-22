@@ -2,10 +2,10 @@
   "manifest_version": 2,
   "version": "1.0",
   "name": "Facebook Source",
-  "description": "Actually be able to read the source of links shared on Facebook."
+  "description": "Actually be able to read the source of links shared on Facebook.",
   "content_scripts": [
       {
-          "matches": ["https://facebook.com"],
+          "matches": ["https://www.facebook.com/*"],
           "css": ["inject.css"]
       }
   ]
